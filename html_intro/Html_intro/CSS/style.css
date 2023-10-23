@@ -1,0 +1,50 @@
+
+body {
+    background: black
+}
+
+
+
+
+h1 {
+    font-family: cursive;
+    font-size: 4em;
+    text-align: center;
+    color: white
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+    color: white
+}
+
+h3{
+    font-size: 2em;
+    text-align: center;
+    color: whitesmoke;
+}
+
+p{ 
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    font-size: 2em;
+    text-align: right;
+    color: white;
+}
+
+a {
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    padding-top: 10px;
+}
