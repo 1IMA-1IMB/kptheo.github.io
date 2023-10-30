@@ -1,0 +1,9 @@
+body {
+    color: aqua;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    color: aqua;
+}
