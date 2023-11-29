@@ -54,14 +54,7 @@ h1 {
     color: white;
 }
 
-.Hjem {
-    background-color: #b7dac5;
-    margin-left: -600px;
-    border-radius: 10px 20px 30px 40px;
-    width: 50px;  /* Sett ønsket bredde */
-    height: 50px; /* Sett ønsket høyde */
-}
-    
+  
 .Tjenester {
     display: flex;
     background-color: #b7dac5;
@@ -94,7 +87,7 @@ h1 {
     border-radius: 10px;
     height: 233px;
     width: 400px;
-    margin-left: -400px;
+    margin-left: -410px;
 }
 
 .Live img {
@@ -111,7 +104,7 @@ h1 {
     border-radius: 10px;
     height: 233px;
     width: 400px;
-    margin-left: -400px;
+    margin-left: -410px;
     margin-top: 10px;
 }
 .Trening img {
@@ -130,3 +123,26 @@ a {
     width: 400px;
 }
 
+@media screen and (max-width: 600px) {
+    .header {
+        height: 50px;
+    } 
+
+    .Kontakt {
+        height: 0px;
+    }
+
+    .Tjenester {
+        height: 0px;
+    } 
+
+    .Omoss {
+        height: 0px;
+    }
+
+    img {
+        height: 70px;
+        width: 70px;
+
+    }
+}
