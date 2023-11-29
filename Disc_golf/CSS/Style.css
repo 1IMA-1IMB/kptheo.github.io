@@ -76,3 +76,12 @@ h1 {
     width: 200px;  /* Sett ønsket bredde */
     height: 50px; /* Sett ønsket høyde */
 }
+
+.Omoss {
+    display: flex;
+    background-color: #b7dac5;
+    margin-left:20px;
+    border-radius: 10px;
+    width: 200px;  /* Sett ønsket bredde */
+    height: 50px; /* Sett ønsket høyde */
+}
