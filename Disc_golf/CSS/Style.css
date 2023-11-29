@@ -99,9 +99,34 @@ h1 {
 
 .Live img {
     display: flex;
+    border-radius: 20px;
+    height: 233px;
+    width: 400px;
+    margin-right: -480px;
+    margin-top: -243px;
+    padding: 10px;
+}
+.Historier img {
+    display: flex;
     border-radius: 10px;
     height: 233px;
     width: 400px;
-    margin-left: 420px;
-    margin-top: -233px;
+    margin-left: -400px;
+    margin-top: 10px;
 }
+.Trening img {
+    display: flex;
+    border-radius: 20px;
+    height: 233px;
+    width: 400px;
+    margin-right: -480px;
+    margin-top: -243px;
+    padding: 10px;
+}
+
+
+a {
+    height: 233px;
+    width: 400px;
+}
+
