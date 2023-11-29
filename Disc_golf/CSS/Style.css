@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #00282a;
+    padding: 20px;
+    text-align: center;
+    height: 90px;
+} 
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 90px;
+    margin-top: -90px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+img {
+    display: flex;
+    height: 90px;
+    width: 90px;
+}
+
+h1 {
+    color: white;
+}
+
+.Hjem {
+    background-color: #b7dac5;
+    margin-left: -600px;
+    border-radius: 10px 20px 30px 40px;
+    width: 50px;  /* Sett ønsket bredde */
+    height: 50px; /* Sett ønsket høyde */
+}
+    
+.Tjenester {
+    display: flex;
+    background-color: #b7dac5;
+    margin-left: 200px;
+    border-radius: 10px;
+    width: 200px;  /* Sett ønsket bredde */
+    height: 50px; /* Sett ønsket høyde */
+}
+
+.Kontakt {
+    display: flex;
+    background-color: #b7dac5;
+    margin-left:20px;
+    border-radius: 10px;
+    width: 200px;  /* Sett ønsket bredde */
+    height: 50px; /* Sett ønsket høyde */
+}
