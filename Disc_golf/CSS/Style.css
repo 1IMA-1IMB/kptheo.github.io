@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: black;
 }
 .header {
     background-color: #00282a;
@@ -39,6 +40,8 @@ body {
     margin: 10px;
     padding: 20px;
     border: 1px solid black;
+    height: 100%;
+    width: 100%;
 }
 
 img {
@@ -84,4 +87,21 @@ h1 {
     border-radius: 10px;
     width: 200px;  /* Sett ønsket bredde */
     height: 50px; /* Sett ønsket høyde */
+}
+
+.Teknikk img {
+    display: flex;
+    border-radius: 10px;
+    height: 233px;
+    width: 400px;
+    margin-left: -400px;
+}
+
+.Live img {
+    display: flex;
+    border-radius: 10px;
+    height: 233px;
+    width: 400px;
+    margin-left: 420px;
+    margin-top: -233px;
 }
