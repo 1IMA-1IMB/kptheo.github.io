@@ -122,27 +122,3 @@ a {
     height: 233px;
     width: 400px;
 }
-
-@media screen and (max-width: 600px) {
-    .header {
-        height: 50px;
-    } 
-
-    .Kontakt {
-        height: 0px;
-    }
-
-    .Tjenester {
-        height: 0px;
-    } 
-
-    .Omoss {
-        height: 0px;
-    }
-
-    img {
-        height: 70px;
-        width: 70px;
-
-    }
-}
