@@ -1,6 +1,7 @@
 h1 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    color: white;
 
 }
 
@@ -36,4 +37,15 @@ h2 {
     text-align: center;
     justify-content: center;
     
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    width: 80%;
+    height: auto;
+    margin-top: 20%;
+    border-radius: 10px;
 }

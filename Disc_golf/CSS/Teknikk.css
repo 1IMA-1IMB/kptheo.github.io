@@ -1,3 +1,28 @@
+/* Base styles */
 body {
     background-color: black;
+    color: white; /* Default text color set to white for the entire body */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+    align-items: center;
 }
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: white; /* Heading color */
+    text-align: center;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 1em; /* Add some space after each paragraph */
+    line-height: 1.5; /* Improve readability */
+    text-align: center;
+}
+
+/* Lists */
+li {
+    color: white; /* List item color */
+    text-align: center;
+}
+
+/* Optional: You can add styles for other elements like links, buttons, etc. */
