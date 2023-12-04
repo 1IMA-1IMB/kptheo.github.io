@@ -1,14 +1,15 @@
 h1 {
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    margin-left: 220px;
-    margin-bottom: -100px;
 
 }
 
 h2 {
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
+    color: white;
+    margin-right: 300px;
+    margin-bottom: -200px;
+    margin-left: 260px;
 }
 
 .Taskbar {
@@ -21,14 +22,11 @@ h2 {
 
 .box {
     display: flex;
-    background-color: teal;
 }
 
 .box2 {
     display: flex;
-    background-color: aqua ;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
 }
 
@@ -42,6 +40,7 @@ h2 {
 
 body {
     background-color: black;
+    
 }
 
 img {
