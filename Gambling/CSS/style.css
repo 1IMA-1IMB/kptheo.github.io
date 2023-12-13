@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+    margin-left: 10px;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: lime;
+    height: 70px;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+}
