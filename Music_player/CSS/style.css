@@ -39,6 +39,16 @@ h2 {
     padding: 10px;
 }
 
+.story {
+    display: flex;
+    margin-left: 70%;
+    margin-top: -1400px;
+}
+
+.p {
+    color: white;
+}
+
 @media only screen and (max-width: 1000px) {
     img {
         display: flex;
