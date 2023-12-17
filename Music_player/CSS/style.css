@@ -45,13 +45,16 @@ h2 {
     margin-top: -1400px;
 }
 
+.Story-content {
+    display: flex;
+    color: white;
+    margin-top: 1I0px;
+    margin-left: 65%;
+    margin-right: 5%;
+}
+
 .p {
     color: white;
 }
 
-@media only screen and (max-width: 1000px) {
-    img {
-        display: flex;
-        margin-left: 260px;
-    }
-  }
+
