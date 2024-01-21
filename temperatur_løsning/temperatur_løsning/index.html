@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="bytte_enhet()">Bytt enhet</button><br><br>
+
+    <p id="input_type">Celsius:</p>
+    <input type="number" id="input" 
+    oninput="konverter_temperatur(this.value)"
+    onchange="konverter_temperatur(this.value)"><br><br>
+
+    <p id="output_type">Fahrenheit:</p>
+    <p id="output">---</p>
+    
+    <script src="index.js"></script>
+</body>
+</html>
