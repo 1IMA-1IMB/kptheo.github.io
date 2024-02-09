@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Liter til Spiseskje kalkulator</h1>
+    <a href="cups.html">Cups kalkulator</a>
+    <a href="Ounces.html">Ounce kalkulator</a>
+    <a href="spisekjeer.html">Spiseskje kalkulator</a>
+    <a href="index.html">gallon kalkulator</a>
+
+    <button onclick="bytte_enhet()">Bytt enhet</button><br><br>
+
+    <p id="input_type">Liters:</p>
+    <input type="number" id="input"
+    oninput="konverter_maleenhet(this.value)"
+    onchange="konverter_maleenhet(this.value)"><br><br>
+
+    <p id="output_type">Spiseskjeer:</p>
+    <p id="output">---</p>
+    
+    <script src="spisekjeer.js"></script>
+</body>
+</html>

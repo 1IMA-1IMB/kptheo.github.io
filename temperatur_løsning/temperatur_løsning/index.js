@@ -15,6 +15,7 @@ function konverter_temperatur(temp){
         document.getElementById("output").innerHTML = konvertert;
 
     }
+    
 }
 
 function bytte_enhet(){
