@@ -1,0 +1,18 @@
+.container{
+    border: solid black 10px;
+    height: 50vh;
+    width: 120vh;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25vh;
+
+
+}
